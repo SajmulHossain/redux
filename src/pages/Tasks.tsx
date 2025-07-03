@@ -24,7 +24,7 @@ const Tasks = () => {
             <AddTask />
           </div>
         </div>
-        <div className="">
+        <div className="space-y-4">
           {tasks.map((task) => (
             <TaskCard key={task.id} task={task} />
           ))}

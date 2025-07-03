@@ -37,7 +37,7 @@ const TaskCard = ({ task }: IProps) => {
           <Checkbox onClick={() => dispatch(toggleCompleteStatus(id))} />
         </div>
       </div>
-      <div className="mt-5">{description}</div>
+      <div className="mt-2">{description}</div>
     </div>
   );
 };
